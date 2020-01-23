@@ -1,0 +1,63 @@
+
+.container {
+    background: #800080;
+    padding: 50px 20px;
+}
+
+#title > h2 {
+    text-align: center;
+}
+
+
+.calendar {
+    background: #fff;
+}
+
+.entete {
+    background: #b22222 ;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+.month {
+   display: inline-block;
+    font-weight: bold;
+}
+
+
+.calendar button {
+    font-size: 1.70rem;
+    height: 100%;
+    padding: 0 25px;
+}
+
+
+
+.calendar button:first-child {
+    float: left;
+}
+.calendar button:last-child {
+    float: right;
+}
+
+
+.calendar .cell {
+    display: inline-block;
+    padding: 5px 0;
+    text-align: center;
+    width: calc(100% / 7);
+}
+.calendar .day {
+    background: #0E96E4;
+    color: #fff;
+    height: 20px;
+    line-height: 20px;
+    font-size: 15px;
+}
+.calendar .today {
+    background: #ba55d3 	;
+    color: #fff;
+  
+}
